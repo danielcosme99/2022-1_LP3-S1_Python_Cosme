@@ -2,7 +2,7 @@
 """
 Created on Wed Jun 22 11:23:47 2022
 
-@author: User
+@author: Cosme
 """
 
 import sqlite3
