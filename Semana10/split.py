@@ -1,5 +1,5 @@
 
-cadena="hola amnigos como estan???"
+cadena="hola amigos como estan???"
 lista = cadena.split()
 listaporletra = cadena.split("o")
 print(cadena)

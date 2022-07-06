@@ -10,7 +10,7 @@
 # Importamos la libreria
 import camelcase
 
-nombre = "flor elizabeth cerdan león"
+nombre = "carlos daniel cosme hernandez"
 
 print(nombre.upper())
 print(nombre.title())
@@ -27,5 +27,5 @@ print(cam.hump(nombre))
 # creamos otro objeto llamado cam2
 # al definir el objeto, incluimos los argumentos
 # 'flor' y 'león' 
-cam2 = camelcase.CamelCase('flor','león')
+cam2 = camelcase.CamelCase('daniel','cosme')
 print(cam2.hump(nombre))
