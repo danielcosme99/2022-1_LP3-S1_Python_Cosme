@@ -1,12 +1,15 @@
 {% extends 'layout.html' %}
 
 {% block title %}
-    saludo 
+    {{titulo}} 
 {% endblock %}
 
 {% block content %}
-    {{ block.super }}
-    <h1>Bienvenidos</h1>
-    <h2>Carlos Cosme</h2>
-    <h3>Python</h3>
+    <h1 class="tittle">Bienvenidos</h1>
+    <h2>{{autor_saludo}}</h2>
+    {% load filters %}
+    {{"iniciando curso LP3"|saludo|safe}}
+    <p>
+        {{block.super}}
+    </p>
 {% endblock %}

@@ -1,4 +1,4 @@
-/* Estilos Generales*/
+/*Estilos Generales*/
 *{
     margin: 0px;
     padding: 0px;
@@ -6,23 +6,34 @@
     text-decoration: none;
 }
 
+.box p, .box h2, .box h1, .box ul{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.box ul, .box ol{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+ 
 body{
     background-color: #f2f2f2;
 }
-
-/*Estilos Cabecera*/
+ 
+/* Estilos Cabecera */
 header{
     width: 1212px;
     height: 140px;
-    background-color: #23282b;
-    margin:  0 auto;
+    background-color: #23282B;
+    margin: 0 auto;
 }
+ 
 #logotipo {
-    width: 35px;
+    width: 35%;
     height: 130px;
     margin: 0 auto;
     padding-top: 10px;
 }
+ 
 #logotipo img{
     display: block;
     width: 60px;
@@ -40,18 +51,20 @@ header{
     color: #2ba977;
 }
 
-/* Estilos Navegación*/
-/*Zona de menú*/
+/*Estilos Navegación*/
+ 
+/*Zona de menu*/
 nav{
     width: 1250px;
     height: 40px;
     margin: 0 auto;
-    background-color: #1b1e1f;
+    background-color: #1B1E1F;
     border: 1px solid #333333;
     box-shadow: 0px 22px 22px gray;
     font-size: 15px;
 }
-/* Zona de enlaces*/
+ 
+/*Zona de enlaces*/
 nav ul{
     list-style: none;
     text-decoration: none;
@@ -60,6 +73,7 @@ nav ul li{
     line-height: 40px;
     float: left;
 }
+
 /* Hipervínculos*/
 nav ul li a{
     display: block;
@@ -67,12 +81,13 @@ nav ul li a{
     padding-right: 15px;
     color: #d1d4d6;
 }
-
+/* Efecto en Hipervínculos*/
 nav ul li a:hover{
     background: #2ba977;
    box-shadow: 0px 0px 0px #444 inset;
    color: white;
    transition: all 300ms;
+
 }
 /* Efecto 3D*/
 .barra{
@@ -91,11 +106,50 @@ nav ul li a:hover{
     border-top: 10px solid #2b2f30;
     float: right;
 }
-/* Relleno del hueco */
+/* Relleno del hueco*/
 .relleno-barra{
     display: block;
     width: 1210px;
     height: 10px;
     background: #2b2f30;
     float: left;
+}
+
+/* Estilos para el CONTENIDO */
+#content{
+    width: 1212px;
+    min-height: 930px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.box{
+    background: white;
+    width: 95%;
+    min-height: 930px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: auto;
+}
+
+.title{
+    color: #444;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+/*Estilos para el footer*/
+footer{
+    width: 1250px;
+    background-color: #1B1E1F;
+    border: 1px solid #333;
+    color: #d1d4d6;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px gray;
 }
