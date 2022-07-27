@@ -1,4 +1,4 @@
-"""proyecto001 URL Configuration
+"""CA_UC04 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
@@ -19,12 +19,6 @@ from miapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index, name = "index"),
-    path('inicio/',views.index,name = "inicio"),
     path('saludo/', views.saludo, name = "saludo"),
-    path('rango/', views.rango, name = "rango"),
-    path('rango2/', views.rango2, name = "rango2"),
-    path('rango2/<int:a>/', views.rango, name = "rango"),
-    path('rango2/<int:a>/<int:b>', views.rango2, name = "rango2"),
-    path('crear-articulo',views.crear_articulo, name="creararticulo"),
+    path('integrantes/', views.integrantes, name = "integrantes"),
 ]
